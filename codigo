@@ -1,0 +1,18 @@
+CREATE DATABASE ComaBem;
+
+USE ComaBem;
+
+CREATE TABLE Produto (
+	id_produto INT AUTO_INCREMENT PRIMARY KEY,
+	nome VARCHAR (50) NOT NULL,
+	preco DECIMAL (10,2) NOT NULL,
+	quantidade DECIMAL (10,02) NOT NULL,
+	unidade_medida VARCHAR (20) NOT NULL,
+);
+
+INSERT INTO Produto (nome, preco, quantidade, unidade_medida)
+VALUES
+('Carne', 30.00, 2.0, 'kg'),
+('Óleo', 30.00 1.0, 'unidade'),
+('Leite', 30.00, 1.5, 'litros'),
+('Alface', 30.00, 1.0, 'unidade';
